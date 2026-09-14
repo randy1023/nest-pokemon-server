@@ -45,3 +45,10 @@ $ pnpm run test:cov
 $ docker-compose up -d
 
 ```
+
+## Insert test data on databases from seed
+
+```bash
+http://localhost:3000/api/v2/seed
+
+```
