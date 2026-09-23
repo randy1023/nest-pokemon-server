@@ -40,12 +40,6 @@ $ pnpm run test:cov
 
 ## Clone file **.env.example** and rename like **.env**
 
-```bash
-# database on docker
-$ docker-compose up -d
-
-```
-
 ## Run image docker to database on developer
 
 ```bash
