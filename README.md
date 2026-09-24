@@ -54,3 +54,18 @@ $ docker-compose up -d
 http://localhost:3000/api/v2/seed
 
 ```
+
+# Production build
+
+1. create file `.env.prod `
+
+2. full enviroment variable for production
+
+3. Create new image on docker
+
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+
+```
+
+4. run `docker-compose -f docker-compose.prod.yaml --env-file .env.prod up -d` when remove image
